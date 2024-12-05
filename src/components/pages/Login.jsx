@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { Eye, EyeOff, Lock, User } from 'lucide-react';
 import toast from 'react-hot-toast';
 
-const API_URL = "http://localhost:8080/api/auth";
+const API_URL = "https://hospitalmis-46zd.onrender.com/api/auth";
 
 const Login = () => {
   const { control, handleSubmit, formState: { errors } } = useForm();
